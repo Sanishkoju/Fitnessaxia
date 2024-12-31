@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Satoshi Variable , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color:#fff;
+ 
+
+}
+html{
+  overflow-x: hidden;
+}
+
+ a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    display:inline-block;
+  }
+  ul{
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+  img {
+    display: block;
+    width: 100%;
+    height:100%;
+  }
+  .hidden {
+    opacity: 0;
+    display: none;
+    visibility: hidden;
+  }
+
+  button{
+    outline: none;
+  }
+  h1{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color:#fff;
+  }
+ h2{
+ 
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 62px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color:#fff;
+ }
+  h3{
+    font-size: 28px;
+            font-weight: 700;
+            line-height: 32px;
+            letter-spacing: -0.02em;
+            text-align: left;
+  }
+  .desc{ 
+    color:#fff;
+    padding-top:24px;
+    text-align: center;
+    max-width:677px;
+    margin:auto;
+    padding-inline:20px;
+  }
+  .container{
+    max-width: 1350px;
+    padding-inline: 20px;
+    margin:auto;
+    display:block;
+  }
+  button{
+    padding:15px 20px;
+    border-radius: 8px;
+    background: rgb(215, 62, 62);
+    color:#fff;
+    border: none;
+    outline: none;
+  }
+  .side-card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding:15px;
+    border-radius: 8px;
+    gap:10px;
+    position: absolute;
+    left:40%;
+    transform: translateX(-50%);
+}
+.side-card .right{
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}

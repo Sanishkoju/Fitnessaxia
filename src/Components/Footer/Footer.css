@@ -1,0 +1,69 @@
+.footer{
+    background: #171717;
+    padding-block:60px;
+}
+.footer :is(.top, .bottom,.socials){
+    display: flex;
+    gap:20px;
+    justify-content: space-between;
+}
+.footer .top h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom:20px ;
+}
+.footer .menu li{
+    margin-block:10px;
+
+}
+.footer :is( .menu li,a,p,.copyright){
+    color: #c6c6c6;
+}
+.footer .menu li span{
+    margin-right:10px;
+}
+#newsletter-form{
+    position: relative;
+}
+#newsletter-form button{
+    padding:5px;
+    border-radius: 50%;
+    position: absolute;
+    right:5px;
+    width:40px;
+    aspect-ratio: 1;
+    display: grid;
+    place-content: center;
+    top:7px;
+
+}
+#newsletter-form input{
+    padding:15px 50px 15px 10px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.footer .bottom{
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid #fff;
+}
+.footer .logo a{
+    font-size: 25px;
+    color:#ffffff;
+}
+.footer .socials{
+    gap: 5px;
+
+}
+.footer .socials span a{
+    background-color: #fff;
+    border-radius: 50%;
+    padding:5px;
+    width:30px;
+    height:30px;
+}
+.footer .socials span svg{
+    width:20px;
+    height:20px
+}

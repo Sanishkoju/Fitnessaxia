@@ -1,0 +1,23 @@
+.partners{
+    background-color:#171717;
+    padding-block:30px;
+}
+.partners .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+.partners-right img{
+    max-width:150px;
+    height:auto;
+}
+.partners-right svg path{
+    fill:#fff;
+}

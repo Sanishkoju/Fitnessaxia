@@ -1,0 +1,98 @@
+.herobanner{
+    min-height:100vh ;
+    background: linear-gradient(217deg, rgba(20, 20, 20, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(20, 20, 20, 0.8), rgba(20, 20, 20, 0.8) 90.71%),
+    linear-gradient(336deg, rgba(255, 55, 0, 0.8), rgba(0,255,0,0) 70.71%);
+    position:relative;
+    padding-top: 120px;
+}
+.wrapper{
+    display:flex;
+    align-items: center;
+}
+.heroleft{
+    flex:0 0 45%;
+}
+.heroright{
+    flex:0 0 55%;
+}
+.heroright img{
+    max-width: 533px;
+    height: 700px;
+    object-fit: cover;
+    object-fit: cover;
+    object-position: top left;
+}
+.herotop span img{
+    width:130px;
+    height:50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 60px;
+}
+.herotop span{
+    position: absolute;
+    margin-left: 20px;
+}
+.heroleft p{
+    margin-block:40px;
+}
+:is(.herobanner) .heromiddle,.video,.bottom{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+.heromiddle .icon{
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    background: rgb(22, 21, 21);
+
+}
+.video{
+    gap:10px;
+
+}
+.video span{
+    font-weight: 600;
+}
+.herobanner .bottom{
+    margin-top:30px;
+}
+.counterbox:not(:last-child){
+    border-right:1px solid #fff;
+padding-right:20px;
+}
+.counterbox p{
+    margin-block: 5px 0px;
+    color: #e3e1e1;
+}
+.counter,.cal-count{
+    font-size: 25px;
+    font-weight: 600;
+}
+.caloriesbox{
+    display:flex;
+    max-width:200px;
+    border-radius: 8px;
+    gap:15px;
+    padding:15px;
+    background-color: #fff;
+    position: absolute;
+    bottom:100px;
+    left:60%;
+}
+.calbox-left *{
+    color:#000;
+}
+.cal-top,.cal-graph>span{
+    font-size: 10px;
+}
+.cal-graph>span:nth-child(2){
+    color:rgb(215, 62, 62);
+}
+.cal-bar{
+    align-self: flex-end;
+}

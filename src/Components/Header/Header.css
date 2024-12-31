@@ -1,0 +1,25 @@
+.header{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    padding-block: 30px;
+    z-index: 2;    
+}
+.header :is(.wrapper,.menu){
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .logo a{
+    font-size: 25px;
+    color:#ffffff;
+}
+.menu li a{
+    padding-inline: 10px;
+    color:#ffffff;
+    z-index: 2;
+}
+.menu li.active a{
+    color:red;
+}

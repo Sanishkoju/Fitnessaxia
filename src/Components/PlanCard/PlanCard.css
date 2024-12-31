@@ -1,0 +1,46 @@
+
+.plancards{
+padding: 20px 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+flex:0 0 33.33%;
+height: max-content;
+gap: 20px;
+background-color: rgb(45, 45, 45);
+border-radius: 10px;
+
+}
+.plancards .title,.plancards span{
+    font-size: 16px;
+    font-weight: 500;
+    color:#fff;
+}
+.plancards .price{
+    font-size: 40px;
+    font-weight: 500;
+    color:#fff;
+}
+.plancards ul li {
+    font-size: 14px;
+    margin-block: 14px;
+    color:#fff;
+}
+.plancards button{
+    width: 100%;
+    text-align: center;
+    padding:10px;
+    font-size: 22px;
+    color: #fff;
+    background: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 50px;
+}
+.plancards:nth-child(2){
+    background:rgb(247, 111, 26);
+}
+.plancards:nth-child(2) button{
+    background-color: #fff;
+    color:rgb(247, 111, 26);
+}

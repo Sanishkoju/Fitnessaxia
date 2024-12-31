@@ -1,0 +1,36 @@
+.goals{
+    padding-block:60px;
+    background: #202020;
+
+}
+.goals .wrapper{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:50px;
+}
+.goalsleft{
+border-radius: 10px;
+overflow: hidden;
+flex:0 0 40%;
+position: relative;
+}
+
+.goalsright h2{
+    color:#fff;
+    text-align: left;
+}
+.goalsright p{
+    margin-block:30px;
+    color:rgb(210, 214, 214);
+    text-align: left;
+}
+.goalsright button{
+ background:orangered;
+ border-radius: 10px;
+ padding:15px;
+ color:#fff;
+}
+.goalsright{
+max-width: 650px;
+}

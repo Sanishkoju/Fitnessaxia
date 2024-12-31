@@ -1,0 +1,43 @@
+
+.plans{
+    padding-block: 60px;
+    background: #171717;
+    color:#fff;
+}
+.plans h2{
+    color:#fff;
+}
+.plancards-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    grid-template-columns: repeat(3 , 1fr);
+}
+.plans p{
+    text-align: center;
+    max-width: 760px;
+    margin: auto;
+    margin-block: 20px;
+}
+.plans .buttons{
+    border:2px solid orangered;
+    border-radius: 50px;
+    margin: auto;
+    width: max-content;
+    display: block;
+}
+.plans .buttons button{
+    color: #fff;
+    padding:10px 20px;
+    border: none;
+    outline: none;
+}
+.monthly{
+    border-radius: 50px;
+    background: orangered;
+}
+.annual{
+    background: transparent;
+}
